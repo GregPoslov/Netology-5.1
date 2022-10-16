@@ -21,8 +21,9 @@ public class SQRServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
-    public void singleValue () {
+    public void singleValue() {
         SQRService service = new SQRService();
         int actual = service.calculate(99, 101);
         int expected = 1;
